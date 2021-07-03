@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.section-container{
+    width: 85%;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.short-btn{
+    background-color: white;
+    min-width: 140px;
+    width: 40%;
+    max-width: 250px;
+    height: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    margin: 1% 2% 1% 0;
+    transition: 0.2s;
+}
+.short-btn:hover{
+    background-color: #85c0ff;
+    cursor: pointer;
+    transform: translateY(-7%);
+}
+.short-btn a{
+    text-decoration: none;
+    color: black;
+}
+.long-btn{
+    background-color: white;
+    min-width: 250px;
+    width: 40%;
+    max-width: 50%;
+    height: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 1% 2% 1% 0;
+    transition: 0.2s;
+}
+.long-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.absolute-hamburger{
+    width: 6rem;
+    height: 50px;
+    transform: translateY(38%);
+    position: absolute;
+    display: none;
+    justify-content: space-evenly;
+    border: none;
+    left: -1%;
+}
+#login-signup-error-msg{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 5% 0;
+    color: red;
+}
+
+
+
+
+header{
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.top-header{
+    background-color: black;
+}
+.top-header-link{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+.top-header-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+}
+.top-header-link a:hover{
+    text-decoration: underline;
+}
+.down-header{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    max-height: 90px;
+}
+.down-header-link{
+    display: flex;
+}
+.column-4{
+    width: 33.33333333333333333333%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column-4 a{
+    text-decoration: none;
+    color: black;
+}
+.column-4 a:hover{
+    text-decoration: underline;
+}
+.column-4 img{
+    width: 2em;
+    height: 2em;
+}
+#home>h1{
+    position: relative;
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: 800;
+    overflow: hidden;
+    background: linear-gradient(to right, midnightblue, royalblue 20%, black 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-transform: uppercase;
+}
+#home>h1:hover{
+    text-decoration: none;
+    background-position: 0 100%;
+}
+#home-icon{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+
+
+
+
+section img{
+    width: 100%;
+}
+.kpop-banner{
+    position: relative;
+    color: white;
+    margin-bottom: 1%;
+}
+.kpop-banner>.center-bottom-banner-text{
+    position: absolute;
+    margin: auto;
+    bottom: 7%;
+    width: 100%;
+}
+.kpop-banner>.center-bottom-banner-text p{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.kpop-banner>.center-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.kpop-banner>.center-banner-text p{
+    font-size: 4vw;
+    font-weight: bold;
+}
+#about-us-banner{
+    width: 100%;
+    height: 50%;
+}
+#about-us-banner-text{
+    font-style: italic;
+    transform: rotate(-10deg);
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+.subtitle{
+    text-transform: uppercase;
+    margin: 2% 0;
+    display: flex;
+    justify-content: center;
+}
+.subtitle h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+}
+.subtitle>h2::after{
+    position: absolute;
+    content: '';
+    height: 0.1rem;
+    bottom: -0.2rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    background: black;
+}
+.slider{
+    width: 62vw;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+.slide-wrapper{
+    width: 4000px;
+    height: 400px;
+}
+.slide{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+}
+.slide>img{
+    width: 100%;
+    height: 100%;
+}
+.slide-btn:hover{
+    cursor: pointer;
+}
+.sell-item{
+    border: none;
+    margin: 0 1rem 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: 0.1s;
+}
+.sell-item:hover{
+    transform: scale(1.1);
+    background-color: blanchedalmond;
+}
+.sell-item img{ 
+    width: 256px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.item-name{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.item-price{
+    margin-top: 1rem;
+}
+#about-us-text{
+    font-weight: 400;
+    margin: 3% 0 5%;
+}
+#regist-image-bg-container{
+    background-image: url("../Image/About\ Us\ Kpop\ Banner.jpg");
+    padding: 5% 0;
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+}
+.login-signup-container{
+    position: relative;
+    background-color: white;
+    opacity: 0.875;
+    max-width: 50%;
+    min-width: 280px;
+    height: 100%;
+    border: 1px solid black;
+    padding: 3%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 16px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    border-radius: 30px;
+}
+.login-signup-title{
+    text-transform: uppercase;
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+}
+.login-signup-title h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 2%;
+}
+.login-signup-input{
+    margin: 0 0 2% 0;
+    
+}
+.login-signup-input>input[type="text"], .login-signup-input>input[type="password"]{
+    text-align: left;
+    padding: 1% 0 1% 2%;
+    width: 70%;
+}
+.catalog-artist-name{
+    display: flex;
+    justify-content: space-between;
+}
+.catalog-artist-name>h3{
+    font-size: 1.5rem;
+}
+.catalog-artist-name>a{
+    text-decoration: none;
+    color: gray;
+}
+.sell-item-container{
+    max-width: 1900px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.artist-list-container{
+    max-width: 1900px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.artist{
+    margin: 3vw;
+    padding: 2% 2% 4%;
+    transition: 0.1s;
+    border: 1px solid black;
+}
+.artist:hover{
+    transform: scale(1.1);
+}
+.artist img{
+    width: 200px;
+    height: 200px;
+}
+.artist a{
+    text-decoration: none;
+}
+.artist>a>p{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.testimonial-container{
+    border-radius: 10px;
+    border: solid #85c0ff;
+    box-shadow:5px 5px #a988ec;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonial-textbox{
+    width: 80%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px ;
+}
+.testimonial-textbox h6{
+    font-size: 1.5rem;
+}
+.testimonial-textbox p{
+    font-size: 1rem;
+
+}
+.profile{
+    margin: 20px;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: solid 5px #f49ac1;
+    padding: 5px;
+}
+
+
+.sell-album-container{
+    background-image: url(../Image/BTS_background.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    padding: 10vh;
+}
+.sell-album{
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow:5px 5px hsla(334, 80%, 78%) ;
+    border: solid 1px #6dcff6;
+    border-radius: 20px;
+    margin: 1vw 1vw 2vw 1vw;
+    padding: 1rem;
+    text-align: start;
+}
+.album-cover{
+    display: flex;
+    align-items: flex-start;
+}
+.album-cover img{ 
+    width: 10rem;
+    height: auto;
+    margin-right: 1rem;
+}
+.album-name{
+    color: black;    
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: left;
+
+}
+.album-name p{
+    text-align: left;
+}
+.album-price{
+    text-align: left;
+    font-size: 1rem;
+}
+.song-list{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.song img{
+    width: 3rem;
+    padding: 5px;
+}
+.song{
+    width: 100%;
+    font-size:5px ;
+    font-weight: bold;
+}
+.song li{
+    border-radius: 10px ;
+    display: flex;
+    align-items: center;
+    border: solid 1px rgba(161, 134, 190);
+    transition: 0.25s;
+}
+.song li:hover{
+    transform: scale(1.05);
+    background-color: hsla(269, 30%, 64%);
+}
+.song a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.drop-down{
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 100%;
+    width: 40vw;
+    min-width: 200px;
+    height: auto;
+    display: none;
+    padding-top: 25%;
+}
+.drop-down li{
+    padding: 15px 0;
+    color: black;
+    border-top: none;
+}
+.drop-down a{
+    text-decoration: none;
+}
+.drop-down a:nth-child(1){
+    display: none;
+}
+.drop-down a:nth-child(2){
+    display: none;
+}
+#link-focus :hover{
+    background-color: #85c0ff;
+}
+.hamburger-on-off{
+    display: block;
+}
+.absolute-hamburger img{
+    height: 60px;
+    width: auto;
+    padding-left: 10px;
+
+}
+.absolute-hamburger>li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid black;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-row .column-4{
+    display: block;
+    min-width: 300px;
+    padding: 2% 0;
+}
+.footer-row>.column-4 li:hover{
+    text-decoration: none;
+}
+.footer-row .column-4:nth-child(3) ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-row h4{
+    font-size: 1.3em;
+    margin: 3% 0;
+}
+.footer-app-download{
+    display: inline-block;
+    align-items: flex-end;
+}
+.footer-app-download img{
+    width: 128px;
+    height: auto;
+    display: block;
+    margin: 2% 0;
+}
+.footer-social-media{
+    margin: 0% 1%;
+}
+.footer-line{
+    margin: 2% 0;
+}
+#copyright{
+    margin: 2% 0;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .top-header-link{
+        visibility: hidden;
+    }
+    .drop-down a:nth-child(1){
+        display: block;
+    }
+    .drop-down a:nth-child(2){
+        display: block;
+    }
+    .absolute-hamburger>li>img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 450px) { 
+    #home>h1{
+        font-size: 3rem;
+    }
+    .absolute-hamburger{
+        max-width: 30%;
+    }
+    .center-banner-text p{
+        font-size: 2rem;
+    }
+    #kpop-lifestyle-text{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) { 
+    #home-icon{
+        display: none;
+    }
+}
+
+@media (max-width: 1150px) {
+    .down-header-left, .down-header-right{
+        flex-direction: column;
+        align-items: center;
+    }
+    #home{
+        position: absolute;
+    }
+    .down-header-left, .down-header-right{
+        visibility: hidden;
+    }
+    .absolute-hamburger{
+        display: flex;
+    }
+}
